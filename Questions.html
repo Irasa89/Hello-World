@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Questions Form</title>
+</head>
+<body>
+
+	<img src="https://pixabay.com/static/uploads/photo/2015/09/11/08/48/earth-935468_960_720.jpg">
+	<h1>Questions</h1>
+	<p>Answer these simple questions and you'll be on your way to being paired up with the teams that's right for you!</p>
+	
+	<form action="Result.html" method="post">
+		
+		<div>
+		<h3>What is your superhero name?</h3>
+		<label for="name">Superhero Name:</label>
+		<input id="name" name"name" type="text" placeholder="Batman" required>
+		</div>
+
+		<div> 
+			<h3>Would you decribe yourself as...</h3>
+			<ol>
+				<li>Strong
+					<ul>
+						<li><strong>Like Superman or Hulk</strong></li>
+					</ul>
+				</li>
+				<li>Fast
+					<ul>
+						<li><strong>Like Flash or Quicksilver</strong></li>
+					</ul>
+				</li>
+				<li>Smart
+					<ul>
+						<li><strong>Like Batman or Ironman</strong></li>
+					</ul>
+				</li>
+			</ol>
+			<select>
+				<option>Strong</option>
+				<option>Fast</option>
+				<option>Smart</option>
+			</select>
+		</div>
+
+		<div>
+			<h3>What are your superpower(s)?</h3>
+			<label for="power">Invulnerablity</label>
+			<input id="power" name="power" type="checkbox">
+			<label for="power2">Superspeed</label>
+			<input id="power2" name="power2" type="checkbox">
+			<label for="power3">Healing Factor</label>
+			<input id="power3" name="power3" type="checkbox">
+			<label for="power4">Heat Vision</label>
+			<input id="power4" name="power4" type="checkbox">
+			<label for="power5">Super Strength</label>
+			<input id="power5" name="power5" type="checkbox">
+			<label for="power6">Magic</label>
+			<input id="power6" name="power6" type="checkbox">
+			<label for="power7">Technology</label>
+			<input id="power7" name="power7" type="checkbox">
+			<label for="power8">Flight</label>
+			<input id="power8" name="power8" type="checkbox">
+			<label for="power9">Elemental Power</label>
+			<input id="power9" name="power9" type="checkbox">
+			<label for="power10">Martial Arts</label>
+			<input id="power10" name="power10" type="checkbox">
+		</div>
+
+		<div>
+			<h3>What species are you?</h3>
+			<label for="species">Human</label>
+			<input id="species" name="human" type="radio" value="Human">
+			<label for="species">Alien</label>
+			<input id="species" name="alien" type="radio" value="Alien">
+			<label for="species">Android/Cyborg</label>
+			<input id="species" name="android" type="radio" value="Android">
+			<label for="species">Celestial</label>
+			<input id="species" name="celestial" type="radio" value="Celestial">
+		</div>
+
+		<div>
+			<h3>Tell us your origin story!</h3>
+			<textarea name="Origins" rows="10" cols="50" required></textarea>
+		</div>
+
+		<div>
+			<h3>DC or Marvel?</h3>
+			<select name="DC or Marvel">
+				<option selected>None</option>
+				<option>DC Comics</option>
+				<option>I prefer Anime</option>
+				<option>Marvel Comics</option>
+			</select>
+		</div>
+
+		<p>
+			<button>Submit</button>
+		</p>
+	</form>
+
+</body>
+</html>
