@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fake Profile/Submission Website</title>
+</head>
+<body>
+	<h1>SuperheroBook</h1>
+	
+	<h2>Welcome to the Superhero Facebook Page</h2>
+
+	<img height="250" src="https://pixabay.com/static/uploads/photo/2015/06/16/23/40/hero-811875_960_720.jpg">
+	<div>Are you a <a href="http://www.merriam-webster.com/dictionary/superhero"><strong>superhero</strong></a>  looking for a <em>good team</em>  to join up with?</div>
+	<div>This is the site for you!</div>
+
+	<p>Register and answer some simple questions to be pair you with the team that <strong>right for you</strong>!</p>
+
+	<form action="Questions.html" method="post">
+<!--Name  -->	
+	<div>
+		<h4>Secret Identity</h4>
+		<label for="first">First Name:</label>
+		<input id="first" name="first" type="text" placeholder="Bat" required>
+	</div>
+	<div>
+		<label for="last">Last Name:</label>
+		<input id="Last" name="first" type="text" placeholder="Man" required>
+	</div>
+<!-- Email -->
+	<div>
+		<label for="email">Email:</label>
+		<input id="email" name="email" type="email" placeholder="your email" required>
+	</div>
+	<div>
+		<label for="password">Password:</label>
+		<input id="password" name="password" type="password" pattern=".{8,16}" required title="Password must be 8-16 Characters">
+	</div>
+
+	<div>
+		<button>submit</button>
+	</div>
+	</form>
+
+
+</body>
+</html>
